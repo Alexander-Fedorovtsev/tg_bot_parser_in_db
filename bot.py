@@ -12,7 +12,7 @@ bot = Bot(token=config.API_TOKEN)
 dp = Dispatcher(bot)
 db = SQLcity("db.db")
 
-# Активация подписки
+# Активация подпискиf
 @dp.message_handler(commands=["subscribe"])
 async def subscribe(message: types.Message):
     if not db.subscriber_exists(message.from_user.id):
@@ -48,8 +48,8 @@ async def subscribe(message: types.Message):
 async def parse_citues(message: types.Message):
     Parsercity(config.PARSE_URL).add_in_db(db)
     await message.reply(
-            "Парсинг прошел успешно, введите название населенного пункта"
-        )
+        "Парсинг прошел успешно, введите название населенного пункта"
+    )
 
 
 # Проверка текста сообщения, отправка города
