@@ -13,6 +13,6 @@ env.bak/
 venv.bak/
 
 # Configuretion
-#config.py
+config.py
 config copy.py
 
