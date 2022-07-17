@@ -13,6 +13,6 @@
 
 ### Установка бота
 1. Клонируйте репозиторий
-2. Добавьте в config.py токен вашего бота (необходимо его предварительно создать через (Botfather)[https://botcreators.ru/blog/kak-sozdat-svoego-bota-v-botfather/])
+2. Добавьте в config.py токен вашего бота (необходимо его предварительно создать через [Botfather](https://botcreators.ru/blog/kak-sozdat-svoego-bota-v-botfather/)
 3. Установите Venv и зависимости из файла requirements.txt
 4. Запускайте bot.py, бот начнет работу на локальной машине и будет доступен через Телеграм
